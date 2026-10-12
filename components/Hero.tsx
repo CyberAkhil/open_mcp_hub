@@ -24,7 +24,7 @@ export default function Hero() {
       <div className="relative mx-auto grid max-w-6xl items-center gap-12 px-5 lg:grid-cols-[1.05fr_.95fr]">
         <div>
           <p className="mb-4 font-mono text-[11px] tracking-[0.22em] text-sage uppercase">
-            NikhilG Labs · OpenMCP Registry · nikhilg.tech
+            NexusG Labs · OpenMCP Registry · nikhilg.tech
           </p>
           <h1 className="font-display text-[42px] leading-[1.05] font-semibold tracking-tight sm:text-6xl">
             <span className="gradient-text">The Open-Source Hub for MCP Servers</span>

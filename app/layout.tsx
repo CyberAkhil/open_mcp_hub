@@ -3,15 +3,15 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://nikhilg.tech"),
-  title: "OpenMCP Registry — NikhilG Labs",
+  title: "OpenMCP Registry — NexusG Labs",
   description:
     "Open-source Model Context Protocol (MCP) server registry and deployment platform. Connect LLMs to APIs, databases, and local tools.",
   openGraph: {
-    title: "OpenMCP Registry — NikhilG Labs",
+    title: "OpenMCP Registry — NexusG Labs",
     description:
       "Secure, pre-configured MCP servers to connect LLMs to APIs, databases, and local tools.",
     url: "https://nikhilg.tech",
-    siteName: "NikhilG Labs",
+    siteName: "NexusG Labs",
     type: "website",
   },
 };
@@ -39,7 +39,10 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="min-h-screen bg-ink font-sans antialiased">
+      <body
+        className="min-h-screen bg-ink font-sans antialiased"
+        suppressHydrationWarning
+      >
         {children}
       </body>
     </html>

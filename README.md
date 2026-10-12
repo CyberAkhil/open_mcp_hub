@@ -86,7 +86,7 @@ npm run build
 
 `out/` is the deployable artifact.
 
-Visual language follows the NikhilG Labs site: near-black `#08080a`, warm paper `#e8e0d3`, sage `#356b52`, Outfit / Inter / IBM Plex Mono.
+Visual language follows the NexusG Labs site: near-black `#08080a`, warm paper `#e8e0d3`, sage `#356b52`, Outfit / Inter / IBM Plex Mono.
 
 ## Contributing
 
