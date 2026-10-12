@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #08080a;
+  color: #e8e0d3;
+}
+
+.bg-grid {
+  background-image:
+    linear-gradient(rgba(232, 224, 211, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(232, 224, 211, 0.04) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: radial-gradient(ellipse 70% 60% at 50% 0%, #000 40%, transparent 100%);
+}
+
+.hero-glow {
+  background: radial-gradient(ellipse at 50% 0%, rgba(53, 107, 82, 0.32), transparent 58%);
+}
+
+.gradient-text {
+  background: linear-gradient(180deg, #f3eee5 20%, #b8b0a4 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
