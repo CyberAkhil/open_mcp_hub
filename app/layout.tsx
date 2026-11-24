@@ -5,11 +5,11 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://nikhilg.tech"),
   title: "OpenMCP Registry — NexusG Labs",
   description:
-    "Open-source Model Context Protocol (MCP) server registry and deployment platform. Connect LLMs to APIs, databases, and local tools.",
+    "Discover Model Context Protocol reference servers, official documentation, and integration resources.",
   openGraph: {
     title: "OpenMCP Registry — NexusG Labs",
     description:
-      "Secure, pre-configured MCP servers to connect LLMs to APIs, databases, and local tools.",
+      "Browse MCP reference implementations and integration resources.",
     url: "https://nikhilg.tech",
     siteName: "NexusG Labs",
     type: "website",
@@ -41,7 +41,6 @@ export default function RootLayout({
       </head>
       <body
         className="min-h-screen bg-ink font-sans antialiased"
-        suppressHydrationWarning
       >
         {children}
       </body>
